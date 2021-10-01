@@ -91,6 +91,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #051622;
 }
 
 /* Typography
@@ -210,24 +211,18 @@ section:nth-of-type(2) {
 
 /* About
 --------------------------------------------- */
-.about-container {
-    float: left;
-}
-
-.about-photo {
-    float: right;
-    background-image: url('./img/me.jpg');
-}
 
 .about-img {
     height: 100vh;
     width: 50%;
     float: right;
-    background-color: #FFFFFF;
+    background-image: url('../img/me-cropped.jpg');
+    background-size: cover;
 }
 
 .about-container {
     height: 100vh;
     width: 50%;
     float: left;
+    padding-top: 40vh;
 }
