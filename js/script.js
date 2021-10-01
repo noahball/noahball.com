@@ -1,2 +1,2 @@
 // Fade in effect (jQuery)
-$('.section-container').fadeIn('slow');
+$('section').fadeIn('slow');

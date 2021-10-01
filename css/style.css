@@ -156,6 +156,7 @@ section {
     scroll-snap-align: start;
     text-align: center;
     position: relative;
+    display: none;
 }
 
 .section-container {
@@ -165,7 +166,6 @@ section {
     text-align: center;
     width: 100%;
     left: 0;
-    display: none;
 }
 
 section:nth-of-type(1) {
@@ -225,4 +225,31 @@ section:nth-of-type(2) {
     width: 50%;
     float: left;
     padding-top: 40vh;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #CDF463;
+    color: #051622;
+    font-family: Soleil;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: #051622;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #051622;
+}
+
+.about-text {
+    padding-left: 50px;
+    padding-right: 50px;
 }
