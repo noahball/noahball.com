@@ -183,6 +183,11 @@ section:nth-of-type(3) {
     color: #CDF463;
 }
 
+section:nth-of-type(4) {
+    background-color: #CDF463;
+    color: #051622;
+}
+
 /* Social Icons
 --------------------------------------------- */
 
@@ -241,7 +246,7 @@ section:nth-of-type(3) {
 .web-img {
     height: 100vh;
     width: 50%;
-    float: left;
+    float: right;
     background-image: url('../img/web-design.jpeg');
     background-size: cover;
 }
@@ -254,6 +259,37 @@ section:nth-of-type(3) {
     text-align: left;
     padding-left: 4vw;
     padding-right: 4vw;
+}
+
+/* Audio Visual
+--------------------------------------------- */
+
+.av-img {
+    height: 100vh;
+    width: 50%;
+    float: left;
+    background-image: url('../img/lighting-herald.jpg');
+    background-size: cover;
+}
+
+.av-container {
+    height: 100vh;
+    width: 50%;
+    padding-top: 40vh;
+    display: inline-block;
+    text-align: left;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.worked-with {
+    text-align: center;
+    font-weight: bold;
+}
+
+.av-container img {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Alert Bar
