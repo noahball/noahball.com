@@ -11,5 +11,10 @@ if (queryString.includes('?result=success') == true) {
 } else if (queryString.includes('?result=error') == true) {
     $('#contact-submit').hide();
     $('#contact-response').show();
-    $('#contact-response').text('Something went wrong.')
+    $('#contact-response').text('Something went wrong.');
+    $('html,body').animate({scrollTop: document.body.scrollHeight},"fast");
+} else if (queryString.includes('?result=missing') == true) {
+    $('#contact-response').show();
+    $('#contact-response').text('You must fill in all fields.');
+    $('html,body').animate({scrollTop: document.body.scrollHeight},"fast");
 }
