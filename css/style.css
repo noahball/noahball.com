@@ -111,6 +111,18 @@ p {
     font-family: Soleil;
 }
 
+label {
+    font-family: Soleil;
+}
+
+input {
+    font-family: Soleil;
+}
+
+textarea {
+    font-family: Soleil;
+}
+
 /* Buttons
 --------------------------------------------- */
 
@@ -186,6 +198,11 @@ section:nth-of-type(3) {
 section:nth-of-type(4) {
     background-color: #CDF463;
     color: #051622;
+}
+
+section:nth-of-type(5) {
+    background-color: #051622;
+    color: #CDF463;
 }
 
 /* Social Icons
@@ -290,6 +307,33 @@ section:nth-of-type(4) {
 .worked-with img {
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* Contact
+--------------------------------------------- */
+
+input, textarea {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    background-color: #0f2331;
+    border: none;
+    border-radius: 10px;
+    color: #CDF463;
+    height: 4vh;
+    width: 30vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+input:focus, textarea:focus {
+    outline-width: 0;
+}
+
+textarea {
+    height: 16vh;
+    padding-top: 0.5vw;
+    resize: none;
 }
 
 /* Alert Bar
