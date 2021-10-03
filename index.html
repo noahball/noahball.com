@@ -57,8 +57,10 @@
     <section id="welcome">
         <div class="alert">
             <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-            <div class="standard-announcement"><strong>COVID-19 Update:</strong> All services have resumed at Alert Level 2, following guidelines provided
-                by the government.</div><noscript><strong>Please enable JavaScript for an optimal experience.</strong></noscript>
+            <div class="standard-announcement"><strong>COVID-19 Update:</strong> All services have resumed at Alert
+                Level 2, following guidelines provided
+                by the government.</div><noscript><strong>Please enable JavaScript for an optimal
+                    experience.</strong></noscript>
         </div>
         <div class="section-container about">
             <h1>Noah Ball</h1>
@@ -125,17 +127,19 @@
     </section>
     <section id="contact" style="position: relative;">
         <div class="section-container">
-                <h1 class="contact-heading">Interested?</h1>
-                <p class="contact-text">Think I'm right for your job, or just want to say hi? Feel free to get in touch below!</p>
-                <form>
-                    <label class="label" for="name">Name</label><br>
-                    <input type="text" id="name" name="name"><br>
-                    <label class="label" for="email">Email</label><br>
-                    <input type="text" id="email" name="email"><br>
-                    <label class="label" for="message">Message</label><br>
-                    <textarea id="message" name="message"></textarea><br>
-                    <button type="submit" class="outline purple-white">Dispatch carrier pigeons!</button>
-                  </form>
+            <h1 class="contact-heading">Interested?</h1>
+            <p class="contact-text">Think I'm right for your job, or just want to say hi? Feel free to get in touch
+                below!</p>
+            <form method="POST" action="https://api.noahball.com/v1/contact">
+                <label class="label" for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label class="label" for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label class="label" for="message">Message</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button id="contact-submit" type="submit" class="outline purple-white">Dispatch carrier pigeons!</button>
+            </form>
+            <p id="contact-response">Something went wrong. Please try again later.</p>
         </div>
 
         <div class="footer">
