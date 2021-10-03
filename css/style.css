@@ -92,6 +92,8 @@ html {
 body {
     margin: 0;
     background-color: #051622;
+    height: 100%;
+    min-height: 100%;
 }
 
 /* Typography
@@ -334,6 +336,46 @@ textarea {
     height: 16vh;
     padding-top: 0.5vw;
     resize: none;
+}
+
+/* Footer
+--------------------------------------------- */
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #CDF463;
+    color: #051622;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.footer p {
+    float: left;
+}
+
+.footer-social {
+    float: right;
+}
+
+.footer-social [class*="fa fa-"] {
+    color: #051622;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 55px;
+}
+
+.footer-social [class*="fab fa-"] {
+    color: #051622;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 55px;
 }
 
 /* Alert Bar
