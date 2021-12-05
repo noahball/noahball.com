@@ -1,3 +1,6 @@
+// Year in footer
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 // Fade in effect (jQuery)
 $('section').fadeIn('slow');
 
