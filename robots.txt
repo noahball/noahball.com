@@ -1,0 +1,12 @@
+user-agent: *
+Disallow: /blog/
+Disallow: /cdn-cgi/
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /surveys/
+Disallow: /like-nobodys-watching/
+Disallow: /it-policy/
+Disallow: /add/
